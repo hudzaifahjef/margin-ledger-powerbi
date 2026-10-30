@@ -178,4 +178,4 @@ Power BI Desktop · Power Query (M) · DAX · Star schema
 
 ## Penulis
 
-**[Nama Anda]** · [LinkedIn](#) · [Portofolio](#)
+**Hudzaifah** · [LinkedIn](#) · [Portofolio](#)
