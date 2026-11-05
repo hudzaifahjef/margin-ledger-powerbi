@@ -1,0 +1,66 @@
+{
+  "name": "Margin Ledger",
+  "dataColors": ["#3B6070", "#B5822F", "#6B4E8F", "#B5524A", "#3F7D5A", "#9AA1AB", "#8FB0BE", "#D9B779"],
+  "background": "#FCFAF4",
+  "foreground": "#1F2A37",
+  "tableAccent": "#3B6070",
+  "good": "#3F7D5A",
+  "bad": "#B5524A",
+  "neutral": "#B5822F",
+  "maximum": "#3B6070",
+  "center": "#E2DCCB",
+  "minimum": "#B5524A",
+  "textClasses": {
+    "title":   { "fontFace": "Georgia", "fontSize": 14, "color": "#1F2A37" },
+    "header":  { "fontFace": "Georgia", "fontSize": 12, "color": "#1F2A37" },
+    "label":   { "fontFace": "Segoe UI", "fontSize": 10, "color": "#6B7280" },
+    "callout": { "fontFace": "Georgia", "fontSize": 24, "color": "#1F2A37" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FCFAF4" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E2DCCB" } }, "radius": 4 }],
+        "title": [{ "show": true, "fontFamily": "Georgia", "fontSize": 14, "fontColor": { "solid": { "color": "#1F2A37" } }, "alignment": "left" }],
+        "visualHeader": [{ "show": false }],
+        "dropShadow": [{ "show": false }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F6F3EA" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#F6F3EA" } } }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "fontFamily": "Georgia", "fontSize": 24, "color": { "solid": { "color": "#1F2A37" } } }],
+        "categoryLabels": [{ "fontSize": 10, "color": { "solid": { "color": "#6B7280" } } }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [{ "show": false }],
+        "items": [{ "fontColor": { "solid": { "color": "#6B7280" } }, "background": { "solid": { "color": "#FCFAF4" } } }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "legend": [{ "show": true, "position": "Top", "fontSize": 10 }],
+        "valueAxis": [{ "gridlineShow": true, "gridlineColor": { "solid": { "color": "#E2DCCB" } } }],
+        "categoryAxis": [{ "gridlineShow": true, "gridlineColor": { "solid": { "color": "#E2DCCB" } } }]
+      }
+    },
+    "lineStackedColumnComboChart": {
+      "*": {
+        "legend": [{ "show": true, "position": "Top", "fontSize": 10 }],
+        "valueAxis": [{ "gridlineShow": true, "gridlineColor": { "solid": { "color": "#E2DCCB" } } }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [{ "gridHorizontal": true, "gridHorizontalColor": { "solid": { "color": "#E2DCCB" } }, "gridVertical": false }]
+      }
+    }
+  }
+}
